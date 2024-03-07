@@ -1,0 +1,10 @@
+{
+    "workouts": [
+        {
+            "name": "Cycling",
+            "calories": 55,
+            "unit": "Mile",
+            "url": "https://freepngimg.com/thumb/bicycle/30-man-on-bicycle-png-image.png"
+        }
+    ]
+}
