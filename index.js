@@ -1,22 +1,22 @@
-fetch("./workouts.json")
+fetch("./data.json")
 .then(response => response.json())
-.then(myExcercises => loadExcercises(myExcercises));
+.then(myExercises => loadExcercises(myExercises));
 
 sessionStorage.setItem("cals", 0);
-function loadExcercises(myExcercises) {
+function loadExcercises(myExercises) {
     var CardWorkout = document.getElementById("col");
 
 
     
 
 
-    for (var i = 0; i<myExcercises.workouts.length; i++){
+    for (var i = 0; i<myExercises.workouts.length; i++){
         let card = "card" + i.toString();
         let numReps = 0;
-        let name = myExcercises.workouts[i].name;
-        let calories = myExcercises.workouts[i].calories;
-        let unit = myExcercises.workouts[i].unit;
-        let url = myExcercises.workouts[i].url;
+        let name = myExercises.workouts[i].name;
+        let calories = myExercises.workouts[i].calories;
+        let unit = myExercises.workouts[i].unit;
+        let url = myExercises.workouts[i].url;
         let AddCardWorkout = document.createElement("div");
     
 
@@ -29,7 +29,7 @@ function loadExcercises(myExcercises) {
         
 
         <div class="card shadow-sm">
-        <img src=${url} class="card-img-top" alt="..."></img>
+        <img src=${url} class="card-img-top" alt="..."  max-height=150px width=auto></img>
         <div class="card-body">
         <form id="my_form">
         <p class="card-text"> <strong>${name}</strong>, ${calories} Calories per ${unit}<br><br>
