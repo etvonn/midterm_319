@@ -5,6 +5,61 @@
             "calories": 55,
             "unit": "Mile",
             "url": "https://freepngimg.com/thumb/bicycle/30-man-on-bicycle-png-image.png"
+        },
+        {
+            "name": "Walking",
+            "calories": 75,
+            "unit": "Mile",
+            "url": "https://freepngimg.com/thumb/bicycle/30-man-on-bicycle-png-image.png"
+        },
+        {
+            "name": "Plank",
+            "calories": 4,
+            "unit": "Minute",
+            "url": "https://freepngimg.com/thumb/bicycle/30-man-on-bicycle-png-image.png"
+        },
+        {
+            "name": "Lunges",
+            "calories": 6,
+            "unit": "Minute",
+            "url": "https://freepngimg.com/thumb/bicycle/30-man-on-bicycle-png-image.png"
+        },
+        {
+            "name": "Cycling",
+            "calories": 55,
+            "unit": "Mile",
+            "url": "https://freepngimg.com/thumb/bicycle/30-man-on-bicycle-png-image.png"
+        },
+        {
+            "name": "Cycling",
+            "calories": 55,
+            "unit": "Mile",
+            "url": "https://freepngimg.com/thumb/bicycle/30-man-on-bicycle-png-image.png"
+        },
+        {
+            "name": "Cycling",
+            "calories": 55,
+            "unit": "Mile",
+            "url": "https://freepngimg.com/thumb/bicycle/30-man-on-bicycle-png-image.png"
+        },
+        {
+            "name": "Cycling",
+            "calories": 55,
+            "unit": "Mile",
+            "url": "https://freepngimg.com/thumb/bicycle/30-man-on-bicycle-png-image.png"
+        },
+        {
+            "name": "Cycling",
+            "calories": 55,
+            "unit": "Mile",
+            "url": "https://freepngimg.com/thumb/bicycle/30-man-on-bicycle-png-image.png"
+        },
+        {
+            "name": "Cycling",
+            "calories": 55,
+            "unit": "Mile",
+            "url": "https://freepngimg.com/thumb/bicycle/30-man-on-bicycle-png-image.png"
         }
+
     ]
 }
