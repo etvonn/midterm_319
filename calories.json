@@ -2,11 +2,19 @@
     "images": [
       {
         "id": 1,
-        "url": "https://th.bing.com/th/id/OIP._s-9bzm-Hyyu2wf8FuPqAgHaFn?rs=1&pid=ImgDetMain"
+        "url": "https://th.bing.com/th/id/OIP._s-9bzm-Hyyu2wf8FuPqAgHaFn?rs=1&pid=ImgDetMain",
+        "description": "Changes in Bodyweight for Males and Females on Either High Fat or Low Fat Diet"
       },
       {
         "id": 2,
-        "url": "https://th.bing.com/th/id/OIP.u5xB3fgA_W7Cbgt8hRFW3AAAAA?rs=1&pid=ImgDetMain"
+        "url": "https://th.bing.com/th/id/OIP.u5xB3fgA_W7Cbgt8hRFW3AAAAA?rs=1&pid=ImgDetMain",
+        "description": "Weight Loss Success When Compared to the Amount of Time Tracking Calories"
+      },
+      {
+        "id": 3,
+        "url":"https://images.squarespace-cdn.com/content/v1/52a5df8de4b04ff3be091830/1421357326180-OKMHZY750W86NUMTOXBE/Estimated+Calories_v3.jpg",
+        "description": "Why Estimating Your Metabolic Rate and Counting Calories Isn't Worth It"
       }
+
     ]
   }

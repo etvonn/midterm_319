@@ -4,14 +4,23 @@ fetch('calories.json')
     .then(data => {const imageGallery = document.getElementById('imageGallery');
 
     data.images.forEach(image => {
+        const container = document.createElement('div');
         const img = document.createElement('img');
         img.src = image.url;
         img.width = 300;
 
-        imageGallery.appendChild(img);
+        const description = document.createElement('p');
+        description.textContent = image.description;
+
+        container.appendChild(img);
+        container.appendChild(description);
+
+        imageGallery.appendChild(container);
     });
 })
 
+
+let suggestedIntake = 0.0;
 
 function calculateSuggestedIntake() {
     let weight = parseFloat(document.getElementById('weight').value);
@@ -33,7 +42,7 @@ function calculateSuggestedIntake() {
 
     weight *= 0.45359237; //convert to kg
     height *= 2.54; //convert to cm
-    let suggestedIntake = 0.0;
+    suggestedIntake = 0.0;
 
     if(sex == 1){ //male formula
         suggestedIntake = 66.5 + (13.75 * weight) + (5.003 * height) - (6.75 * age);
@@ -54,6 +63,14 @@ function calculateCaloriesLeft() {
 
     const caloriesLeftDisplay = document.getElementById('caloriesLeft');
     caloriesLeftDisplay.textContent = `${caloriesLeft.toFixed(2)} calories left today`;
+}
+
+function setGoalAsBMR(){
+    if(suggestedIntake > 0){
+        const input = document.getElementById('goal');
+
+        input.value = suggestedIntake.toFixed(2);
+    }
 }
 
 
