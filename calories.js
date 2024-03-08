@@ -10,7 +10,7 @@ fetch('calories.json')
         img.width = 300;
 
         const description = document.createElement('p');
-        description.textContent = image.description;
+        description.textContent = `Figure ${image.id}: ${image.description}`;
 
         container.appendChild(img);
         container.appendChild(description);
