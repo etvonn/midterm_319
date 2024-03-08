@@ -58,15 +58,15 @@
             <input type="number" id="weight" class="form-control" placeholder="Weight in lb" style="width: 80%;">
             <h3>Enter your Height</h3>
             <div style="display: flex;">
-                <input type="number" id="ft" class="form-control" placeholder="ft." style="width: 30%;">
-                <input type="number" id="in" class="form-control" placeholder="in." style="width: 30%;"">
+                <input type="number" id="foot" class="form-control" placeholder="ft." style="width: 30%;">
+                <input type="number" id="inch" class="form-control" placeholder="in." style="width: 30%;"">
               </div>
               <h3>Enter your Age</h3>
-              <input type="number" id="age" class="form-control" placeholder="Age" style="width: 80%;">
-              <h3>Enter your Sex:</h3>
+              <input type=" number" id="age" class="form-control" placeholder="Age" style="width: 80%;">
+                <h3>Enter your Sex:</h3>
                 <select class=" form-select" id="genderSelect" name="gender" style="width: 80%;">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
                 </select>
                 <button class="btn btn-primary" onclick="calculateSuggestedIntake()">Calculate</button>
                 <div class="mt-3">
@@ -77,11 +77,15 @@
             <div class="col-md-6">
                 <h2>Enter Calories</h2>
                 <input type="number" id="goal" class="form-control" placeholder="Goal" style="width: 80%;">
-                <input type="number" id="foodCalories" class="form-control" placeholder="Calories eaten" style="width: 80%;">
+                <input type="number" id="foodCalories" class="form-control" placeholder="Calories eaten"
+                    style="width: 80%;">
                 <button class="btn btn-primary" onclick="calculateCaloriesLeft()">Update</button>
                 <div class="mt-3">
                     <h3>Calories left:</h3>
                     <div id="caloriesLeft" class="p-2 border rounded" style="width: 80%;">---</div>
+                </div>
+                <div id="imageGallery" class="img-thumbnail"
+                    style="width: 57%; margin-left: 10%; margin-top: 5%; text-align: center;">Helpful Calorie Graphs
                 </div>
             </div>
         </div>
