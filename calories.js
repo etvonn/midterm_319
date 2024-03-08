@@ -12,8 +12,16 @@ fetch('calories.json')
         const description = document.createElement('p');
         description.textContent = `Figure ${image.id}: ${image.description}`;
 
+        const link = document.createElement('a');
+        link.href = image.link;
+        link.target = "_blank";
+        link.textContent = image.title;
+        link.style.textDecoration = "none";
+        link.style.color = "#0d6efd"
+
         container.appendChild(img);
         container.appendChild(description);
+        container.appendChild(link);
 
         imageGallery.appendChild(container);
     });
